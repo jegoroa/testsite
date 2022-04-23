@@ -1,0 +1,12 @@
+body{
+    background-color: red;
+    text-align: center;
+}
+a{
+    background-color: silver;
+    padding: 10px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}

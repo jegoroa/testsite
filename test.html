@@ -1,0 +1,20 @@
+<head>
+    <title> focerwolf </title>
+    <link href="/style.css" rel="stylesheet"> 
+</head>
+
+<body>
+    <h1> {{vopros}}</h1>
+    <form method="POST" action="/test">
+    {% for answer in all_answers %}
+        <p><input type="radio" value="{{answer}}" name="refresh"> {{answer}}</p>
+        
+    {% endfor %}
+    <input type="hidden" value="{{right_answer}}" name="right_answer">
+    <input type="submit">
+    </form>
+
+</body>
+</html>
+
+    
